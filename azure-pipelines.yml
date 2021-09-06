@@ -15,4 +15,5 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/Kindlegen.csproj'
+    packDirectory: 
     versioningScheme: 'off'
