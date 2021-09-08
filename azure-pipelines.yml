@@ -14,5 +14,5 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/Kindlegen.sln'
+    packagesToPack: '**/Kindlegen.$(BuildConfiguration).nuspec'
     versioningScheme: 'off'
